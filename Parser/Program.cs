@@ -10,8 +10,7 @@ namespace Parse
     {
         static void Main(string[] args)
         {
-            Parser p = new Parser("2+2*3+2");
-            Console.WriteLine(p.expression());
+            Console.WriteLine("Test");
 
             Console.WriteLine("Press any key to exit.");
             Console.ReadKey();
